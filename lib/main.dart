@@ -1,3 +1,4 @@
+import 'package:ecommerce_micro_app_login/app/ecommerce_micro_app_login_resolver.dart';
 import 'package:ecommerce_micro_core/ecommerce_micro_core.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget with BaseApp {
       ),
       navigatorKey: navigatorKey,
       onGenerateRoute: super.generateRoute,
-      initialRoute: '/login',
+      initialRoute: '/splash',
     );
   }
 
@@ -26,5 +27,6 @@ class MyApp extends StatelessWidget with BaseApp {
 
   @override
   List<MicroApp> get microApps => [
+    EcommerceMicroAppLoginResolver(),
   ];
 }
