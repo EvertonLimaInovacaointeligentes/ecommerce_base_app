@@ -12,13 +12,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   ecommerce_micro_core:
   ecommerce_micro_app_login:
+  ecommerce_micro_app_home:
 
 dependency_overrides:
   ecommerce_micro_core:
     path: ../ecommerce_micro_core
   ecommerce_micro_app_login:
     path: ../ecommerce_micro_app_login
-
+  ecommerce_micro_app_home:
+    path: ../ecommerce_micro_app_home
 dev_dependencies:
   flutter_test:
     sdk: flutter

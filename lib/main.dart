@@ -1,3 +1,4 @@
+import 'package:ecommerce_micro_app_home/app/ecommerce_micro_app_home_resolver.dart';
 import 'package:ecommerce_micro_app_login/app/ecommerce_micro_app_login_resolver.dart';
 import 'package:ecommerce_micro_core/ecommerce_micro_core.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget with BaseApp {
     super.registerRouters();
 
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ecommerce',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget with BaseApp {
 
   @override
   List<MicroApp> get microApps => [
-    EcommerceMicroAppLoginResolver(),
-  ];
+        EcommerceMicroAppLoginResolver(),
+        EcommerceMicroAppHomeResolver(),
+      ];
 }
