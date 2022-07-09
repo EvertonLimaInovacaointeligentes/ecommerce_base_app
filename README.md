@@ -1,6 +1,4 @@
 # ecommerce_base_app
-
-# ecommerce_base_app
 app base criado para estudo
 
 O intuito desse projeto é demonstrar que existe um projeto chamado projeto base e dentro desse projeto estamos conectando com subprojetos chamaos de microfrontend, de login e home, para demonstrar a comunicação desses sub apps filhos com rotas publicas enchegagas pelo app base pai
